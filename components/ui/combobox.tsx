@@ -33,6 +33,7 @@ export const Combobox = ({ options, value, onChange }: ComboboxProps) => {
         <Button
           variant="outline"
           role="combobox"
+          aria-controls="radix-:R2mrcq:"
           aria-expanded={open}
           className="w-full justify-between"
         >
